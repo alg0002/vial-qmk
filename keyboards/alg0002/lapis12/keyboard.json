@@ -1,0 +1,56 @@
+{
+    "manufacturer": "alglabnet",
+    "keyboard_name": "Lapis12",
+    "maintainer": "alg0002",
+    "bootloader": "rp2040", 
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP3" , "GP2" , "GP4" , "GP7" ,
+             "GP8" , "GP9" , "GP10", "GP11",
+             "GP12", "GP13", "GP15", "GP14"]
+        ]
+    },
+    "dip_switch": {
+        "enabled": true,
+        "pins": [ "GP27", "GP29", "GP28", "GP26" ]
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "0.1.0",
+        "pid": "0x070A",
+        "vid": "0xA160"
+    },
+    "rgblight": {
+        "led_count": 1
+    },
+    "ws2812": {
+        "pin": "GP16"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0, 0],  "x": 0, "y": 0},
+                {"matrix": [0, 1],  "x": 0, "y": 1},
+                {"matrix": [0, 2],  "x": 0, "y": 2},
+                {"matrix": [0, 3],  "x": 1, "y": 0},
+                {"matrix": [0, 4],  "x": 1, "y": 1},
+                {"matrix": [0, 5],  "x": 1, "y": 2},
+                {"matrix": [0, 6],  "x": 2, "y": 0},
+                {"matrix": [0, 7],  "x": 2, "y": 1},
+                {"matrix": [0, 8],  "x": 2, "y": 2},
+                {"matrix": [0, 9],  "x": 3, "y": 0},
+                {"matrix": [0, 10], "x": 3, "y": 1},
+                {"matrix": [0, 11], "x": 3, "y": 2}
+           ]
+        }
+    }
+}
